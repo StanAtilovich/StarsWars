@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/navigation_planet">
+
+    <fragment
+        android:id="@+id/navigation_people"
+        android:name="ru.stan.starswars.presentation.peopleFragment.PeopleFragment"
+        android:label="fragment_people"
+        tools:layout="@layout/fragment_people" >
+        <action
+            android:id="@+id/action_navigation_people_to_navigation_planet"
+            app:destination="@id/navigation_planet" />
+        <action
+            android:id="@+id/action_navigation_people_to_navigation_favorite"
+            app:destination="@id/navigation_favorite" />
+        <action
+            android:id="@+id/action_navigation_people_to_navigation_ship"
+            app:destination="@id/navigation_ship" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_planet"
+        android:name="ru.stan.starswars.presentation.planetFragment.PlanetFragment"
+        android:label="fragment_planet"
+        tools:layout="@layout/fragment_planet" />
+    <fragment
+        android:id="@+id/navigation_ship"
+        android:name="ru.stan.starswars.presentation.shipFragment.ShipFragment"
+        android:label="fragment_ship"
+        tools:layout="@layout/fragment_ship" />
+    <fragment
+        android:id="@+id/navigation_favorite"
+        android:name="ru.stan.starswars.presentation.favoriteFragment.FavoriteFragment"
+        android:label="fragment_favorite"
+        tools:layout="@layout/fragment_favorite" />
+</navigation>

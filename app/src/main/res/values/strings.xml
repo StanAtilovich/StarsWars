@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">StarsWars</string>
+    <string name="people">Список Людей</string>
+    <string name="planet">Список Планет</string>
+    <string name="ship">Список Кораблей</string>
+    <string name="favorite">Лучший Список</string>
+    <string name="Name">Имя</string>
+    <string name="Gender">Пол</string>
+    <string name="Birth">Дата рождения</string>
+    <string name="diameter">Диаметр</string>
+    <string name="Model">Модель</string>
+    <string name="Lenght">Размер</string>
+    <string name="type">Тип</string>
+</resources>

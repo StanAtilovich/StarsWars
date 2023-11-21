@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_people"
+        android:icon="@drawable/darth_vader"
+        android:title="@string/people"/>
+
+    <item
+        android:id="@+id/navigation_planet"
+        android:icon="@drawable/planets"
+        android:title="@string/planet"/>
+    <item
+        android:id="@+id/navigation_ship"
+        android:icon="@drawable/rocket"
+        android:title="@string/ship"/>
+    <item
+        android:id="@+id/navigation_favorite"
+        android:icon="@drawable/favorite_icon"
+        android:title="@string/favorite"/>
+</menu>
