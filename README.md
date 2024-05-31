@@ -13,6 +13,8 @@
 - Material Views: для использования компонентов пользовательского интерфейса Material Design.
 
 Такой проект демонстрирует навыки важные для Junior Android Developer'а, включая владение архитектурой приложения, работу с базами данных, обработку сетевых запросов, навигацию между экранами и использование Material Design в пользовательском интерфейсе.
+
+
 ![Вот так выглядит приложение](https://github.com/StanAtilovich/StarsWars/blob/master/photo_2024-05-31_12-02-43.jpg)
 ![Вот так выглядит приложение](https://github.com/StanAtilovich/StarsWars/blob/master/photo_2024-05-31_12-02-45.jpg)
 ![Вот так выглядит приложение](https://github.com/StanAtilovich/StarsWars/blob/master/photo_2024-05-31_12-03-12.jpg)
